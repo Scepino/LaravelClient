@@ -1,0 +1,23 @@
+{
+    "name": "scepino/laravel-client",
+    "description": "Scepino client for Laravel",
+    "keywords": ["rbac", "authorization", "access-control"],
+    "type": "package",
+    "license": "EUPL-1.1",
+	"homepage": "https://github.com/scepino/LaravelClient",
+	"authors": [
+        {
+            "name": "Jacco-V",
+            "role": "Developer",
+			"homepage": "http://netsilik.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+	"require": {
+		"php": ">=5.5.9",
+		"scepino/client": "dev-master"
+	},
+    "autoload": {
+        "psr-4": { "Scepino\\LaravelClient\\": "app/src/" }
+    }
+}
